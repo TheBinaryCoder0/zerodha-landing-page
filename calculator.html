@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Returns Calculator</title>
+    <link rel="stylesheet" href="cal_style.css">
+</head>
+<body>
+    <div id="main">
+        <fieldset id="field">
+            <legend>Portfolio Returns Calculator</legend>
+            <div id="capital">
+                <label for="initial-amount">Capital:</label>
+                <input class="input-style" type="text" id="initial-amount">
+            </div>
+            
+            <div id="years">
+                <label for="number-of-years">Years:</label>
+                <input class="input-style" type="text" id="number-of-years">
+            </div>
+            
+            <div id="interest">
+                <label for="interest-rate">Interest:</label>
+                <input class="input-style" type="text" id="interest-rate">
+            </div>
+
+
+
+            <div id="return">
+                <h2 id="return-display">Return: </h2>
+            </div>
+
+            <div id="profit">
+                <h2 id="profit-display">Profit: </h2>
+            </div>
+
+            <button id="cal-button" onclick="calculate_return()">Calculate</button>
+
+        </fieldset>
+          
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

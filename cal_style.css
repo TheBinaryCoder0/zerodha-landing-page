@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(84, 79, 79);
+}
+
+#field{
+    width: 95%;
+    height: 95%;
+    border: 3px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#field legend{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#capital{
+    font-size: 30px;
+    width: 100%;
+    height: 10%;
+}
+
+#years{
+    font-size: 30px;
+    width: 100%;
+    height: 10%;
+}
+
+#interest{
+    font-size: 30px;
+    width: 100%;
+    height: 10%;
+}
+
+#return{
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 200;
+    width: 100%;
+    height: 10%;
+}
+
+#return h2{
+    font-weight: 200;
+    font-size: 30px;
+}
+
+#profit{
+    margin-top: 30px;
+    width: 100%;
+    height: 10%;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+#profit h2{
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.input-style{
+    background: transparent;
+    outline: none;
+    border: 1px solid grey;
+    font-size: 25px;
+    padding: 10px;
+    color: grey;
+}
+
+#cal-button{
+    margin-left: 200px;
+    width: 10%;
+    height: 5%;
+    border-radius: 5%;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    background-color: #387ed1;
+    border: none;
+}
+
+#cal-button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+
+
